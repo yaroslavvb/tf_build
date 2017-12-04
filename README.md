@@ -35,7 +35,7 @@ tmux a
 
 Note that `connect` connects to the most recently launched instance, if you have multiple instances, look inside `connect` for instructions how to select an instance
 
-At the end of build, the script writes to `/tmp/is_initialized` file. If you restart the script, it will skip steps in `INSTALL_SCRIPT` if this file is present, so if you want to start over, make sure to delete this file.
+At the end of build, the script writes to `/tmp/is_initialized` file on the instance. If you restart the script, it will skip steps in `INSTALL_SCRIPT` if this file is present, so if you want to start over, make sure to delete this file on the instance.
 
 Once you are done with your instances, shut them down using terminate script
 
