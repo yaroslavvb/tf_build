@@ -4,7 +4,7 @@ This is a script to reserve a `p3.16xlarge` instance, configure environment for 
 
 You need the following:
 
-- select region with P3 instances one of IAD/PDX/Dublin (ie `us-west-2`)
+- select region with P3 instances, one of IAD/PDX/Dublin (ie `us-west-2`)
 - a security group that allows SSH access (ie, `open`)
 - SSH keyname/.pem pair (ie, `yaroslav` and `~/yaroslav.pem`)
 - Local Python 3.5+ installation with pip configured
