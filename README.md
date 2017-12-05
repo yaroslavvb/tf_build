@@ -16,13 +16,13 @@ export AWS_DEFAULT_REGION=us-west-2
 export SECURITY_GROUP=open
 export KEY_NAME=yaroslav
 export SSH_KEY_PATH=yaroslav.pem
+pip install -r requirements.txt
 aws configure
 ```
 
 Now launch the build as follows
 
 ```
-pip install -r requirements.txt
 tf_build.py
 ```
 
